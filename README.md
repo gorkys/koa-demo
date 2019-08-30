@@ -67,6 +67,7 @@
   接口地址：http://localhost:3000/api/user
 
   请求方式：`GET`
+  
   | 字段     | 类型   | 说明   |
   | -------- | ------ | ------ |
   | pageNo   | number | 页码 |
@@ -77,6 +78,7 @@
   接口地址：http://localhost:3000/api/user
 
   请求方式：`POST`
+  
   | 字段     | 类型   | 说明   |
   | -------- | ------ | ------ |
   | username | string | 用户名 |
@@ -88,6 +90,7 @@
   接口地址：http://localhost:3000/api/user
 
   请求方式：`PUT`
+  
   | 字段     | 类型   | 说明   |
   | -------- | ------ | ------ |
   | username | string | 用户名 |
@@ -99,6 +102,7 @@
   接口地址：http://localhost:3000/api/user
 
   请求方式：`DELETE`
+  
   | 字段 | 类型   | 说明   |
   | ---- | ------ | ------ |
   | id   | number | 用户ID |
@@ -110,6 +114,7 @@
   接口地址：http://localhost:3000/api/upload/image
 
   请求方式：`POST`
+  
   | 字段 | 类型 | 说明 |
   | ---- | ---- | ---- |
   | file | file | 文件 |
@@ -119,6 +124,7 @@
   接口地址：http://localhost:3000/api/resource/image
 
   请求方式：`GET`
+  
   | 字段     | 类型   | 说明   |
   | -------- | ------ | ------ |
   | pageNo   | number | 页码 |
@@ -129,6 +135,7 @@
   接口地址：http://localhost:3000/api/resource/image
 
   请求方式：`DELETE`
+  
   | 字段 | 类型   | 说明   |
   | ---- | ------ | ------ |
   | id   | number | 资源ID |
@@ -148,6 +155,7 @@
   接口地址：http://localhost:3000/api/resource/video
 
   请求方式：`GET`
+  
   | 字段     | 类型   | 说明   |
   | -------- | ------ | ------ |
   | pageNo   | number | 页码 |
@@ -158,6 +166,7 @@
   接口地址：http://localhost:3000/api/resource/video
 
   请求方式：`DELETE`
+  
   | 字段 | 类型   | 说明   |
   | ---- | ------ | ------ |
   | id   | number | 资源ID |
@@ -169,6 +178,7 @@
   接口地址：http://localhost:3000/api/template
 
   请求方式：`GET`
+  
   | 字段     | 类型   | 说明   |
   | -------- | ------ | ------ |
   | pageNo   | number | 页码 |
@@ -179,6 +189,7 @@
   接口地址：http://localhost:3000/api/template
 
   请求方式：`POST`
+  
   | 字段         | 类型   | 说明           |
   | :----------- | ------ | -------------- |
   | htumbnail    | string | 缩略图(base64) |
