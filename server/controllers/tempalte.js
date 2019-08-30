@@ -4,6 +4,7 @@
 import tem from '../models/template'
 import _res from "../utils/response"
 import fs from 'fs'
+import path from 'path'
 
 const thumbnailUrl = 'http://192.168.1.66:3000/thumbnail/'
 const temThumbnail = path.join(__dirname,'../../upload/thumbnail')
