@@ -206,6 +206,7 @@
   接口地址：http://localhost:3000/api/template
 
   请求方式：`DELETE`
+  
   | 字段 | 类型   | 说明   |
   | ---- | ------ | ------ |
   | id   | number | 资源ID |
