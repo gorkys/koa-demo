@@ -8,9 +8,6 @@ import _res from '../utils/response'
 import probe from 'probe-image-size'
 import FF from '../utils/FFMpeg'
 import tools from '../utils/tools'
-import * as dotEnv from 'dotenv'
-
-dotEnv.config()
 
 const imageUrl = `${process.env.SERVER_URL}image/`
 const imagePath = path.join(__dirname,'../../upload/image')

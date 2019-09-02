@@ -2,6 +2,10 @@ import auth from '../controllers/login'
 import user from '../controllers/user'
 import resource from '../controllers/resource'
 import template from '../controllers/tempalte'
+// 从.env为nodejs项目加载环境变量. see: https://github.com/motdotla/dotenv
+import * as dotEnv from 'dotenv'
+
+dotEnv.config()
 
 import koaRouter from 'koa-router'
 const router = koaRouter()
