@@ -1,0 +1,15 @@
+$padding: 1rem;
+$remarkColor: #bebebe;
+
+.padding{
+  padding: $padding;
+}
+
+/* 页面的操作区域*/
+.operateArea {
+  margin-bottom: 20px
+}
+
+.bottom-col {
+  margin-bottom: $padding;
+}
